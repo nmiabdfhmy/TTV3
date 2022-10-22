@@ -49,28 +49,28 @@ def title1(): # Update the title IF option 1 was picked.
     
     while True:
         time_elapsed = strftime('%H:%M:%S', gmtime(time() - start))
-        system(f'title TIKTOD V3 ^| Views Sent: {beautify(Views)} ^| Elapsed Time: {time_elapsed}')
+        system(f'title TIKTOD V3 | Views Sent: {beautify(Views)} | Elapsed Time: {time_elapsed}')
 
 def title2(): # Update the title IF option 2 was picked.
     global Hearts
     
     while True:
         time_elapsed = strftime('%H:%M:%S', gmtime(time() - start))
-        system(f'title TIKTOD V3 ^| Hearts Sent: {beautify(Hearts)} ^| Elapsed Time: {time_elapsed}')
+        system(f'title TIKTOD V3 | Hearts Sent: {beautify(Hearts)} | Elapsed Time: {time_elapsed}')
 
 def title3(): # Update the title IF option 3 was picked.
     global Followers
     
     while True:
         time_elapsed = strftime('%H:%M:%S', gmtime(time() - start))
-        system(f'title TIKTOD V3 ^| Followers Sent: {beautify(Followers)} ^| Elapsed Time: {time_elapsed}')
+        system(f'title TIKTOD V3 | Followers Sent: {beautify(Followers)} | Elapsed Time: {time_elapsed}')
         
 def title4(): # Update the title IF option 1 was picked.
     global Shares
     
     while True:
         time_elapsed = strftime('%H:%M:%S', gmtime(time() - start))
-        system(f'title TIKTOD V3 ^| Shares Sent: {beautify(Shares)} ^| Elapsed Time: {time_elapsed}')
+        system(f'title TIKTOD V3 | Shares Sent: {beautify(Shares)} | Elapsed Time: {time_elapsed}')
 
     
 def loop1():
